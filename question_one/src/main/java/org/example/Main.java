@@ -35,6 +35,8 @@ public class Main {
         Integer choice = scanner.nextInt();
 
         switch (choice) {
+            case 0:
+                return false;
             case 1:
                 signUpStudent();
                 break;
@@ -55,7 +57,6 @@ public class Main {
                 break;
             default:
                 System.out.println("Opção Inválida!");
-                return false;
         }
 
         return true;
