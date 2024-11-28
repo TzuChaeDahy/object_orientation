@@ -12,5 +12,6 @@
         <module>question_one</module>
         <module>question_two</module>
         <module>question_three</module>
+        <module>question_four</module>
     </modules>
 </project>
